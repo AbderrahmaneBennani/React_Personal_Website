@@ -1,0 +1,53 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Navbar--logo{
+    height: 60px;
+    opacity: 1.0;
+}
+
+.Navbar--logo:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.Navbar--links li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.Navbar--links li a, .Navbar--links li a:visited  {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.Navbar--links li a:hover {
+    color: rgba(0, 0, 0, 0.454);
+}
+
+
+.Navbar--button {
+    color: white;
+    padding: 15px 30px;
+    background-color: black;
+}
+
+.Navbar--button:hover {
+    background-color: rgba(0, 0, 0, 0.555);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .Navbar--links{
+        display: none;
+    }
+}
